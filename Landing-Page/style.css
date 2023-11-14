@@ -1,0 +1,393 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Logo styles */
+.logo img {
+    max-width: 100px; /* Adjust the max-width as needed */
+    height: auto;
+}
+
+/* Menu styles */
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+    font-size: larger;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+#search-bar {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#search-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* "Shop Now" button styles */
+.shop-now .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Apply styles to the hero section */
+.hero {
+    background-image: url('112.png');
+    background-size: cover;
+    height: 1080px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 255, 0.536);
+}
+
+/* Style the hero content */
+.hero-content {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    color: #fff;
+    padding-top: 300px;
+    padding-left: 100px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Section 2 */
+
+.section-2 h2
+{
+text-align: center;
+padding-bottom: 20px;
+color: #000000;
+
+}
+
+.section-2 {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.section-2 .section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.feature {
+    flex: 0 0 calc(20% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.feature img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.feature h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+
+/* Section 3 */
+/* Style the featured products section */
+
+.featured-products {
+    text-align: center;
+    padding: 20px;
+    color: #000000;
+    background-color: #ff99003b;
+}
+
+/* Style individual product blocks */
+.product {
+    display: inline-block;
+    margin: 20px;
+    width: 300px; /* Set a fixed width for the product boxes */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.product-content {
+    padding: 10px;
+    position: relative;
+    background-color: #fff;
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 18px; /* Adjust the font size as needed */
+
+}
+
+.regular-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 14px;
+}
+
+.price {
+    font-weight: bold;
+    color: #f00;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.btan {
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.connected{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 230px; /* Center vertically in the viewport */
+    background-color: rgba(255, 0, 0, 0.322);
+    background-image: linear-gradient(rgba(255, 123, 0, 0.384),rgba(255, 255, 0, 0.582));
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-info p
+{
+    font-size: 16px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* Section 4 */
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding-left: 20%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+
+}
+
+/* Style the contact image */
+.contact-image {
+    width: 40%; /* Adjust the width for the image container */
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
+}
+
+/* Style the contact form container */
+.contact-form {
+    width: 40%; /* Adjust the width for the form container */
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.185); /* Add a subtle shadow */
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+/* Style form labels and input fields */
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 120px; /* Increase the height for the query field */
+}
+
+/* Style the submit button */
+.contact-form button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    border-style: double;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+.contact-form button:hover {
+    background-color: #ff3300;
+}
+
+
+/* Styles for the site footer */
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12.5%;
+    padding-right: 20%;
+    padding-bottom: 20px;
+}
+
+/* Styles for the newsletter section */
+.newsletter, .quick-links, .contact-info {
+    flex: 0 0 calc(25%);
+}
+
+.newsletter p 
+{
+line-height: 30px;
+
+}
+/* Styles for the quick links */
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links ul li {
+    margin-bottom: 10px;
+}
+
+.quick-links ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styles for the contact information */
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between icons as needed */
+    padding-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons a img {
+    width: 40px; /* Adjust the width of the icons as needed */
+    height: 40px; /* Adjust the height of the icons as needed */
+    border-radius: 50%; /* Make the icons circular */
+    transition: transform 0.2s; /* Add a smooth transition on hover */
+
+    /* Add more styling as needed, such as box-shadow, border, etc. */
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2); /* Scale the icon up on hover */
+}

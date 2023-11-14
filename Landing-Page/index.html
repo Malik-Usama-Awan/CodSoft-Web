@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Tech Haven</title>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo11.png" alt="Tech Haven Logo">
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="search-container">
+            <input type="text" id="search-bar" placeholder="Search">
+            <button id="search-button">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero"> 
+            <div class="overlay">
+
+            </div>           
+            <div class="hero-content">
+                <h1>Welcome to Tech Haven</h1>
+                <p>Your One-Stop Shop for Tech Gadgets and Accessories</p>
+                <a href="#" class="cta-button">Shop Now</a>
+            </div>
+        </section>
+    </main>
+
+        <!-- Section 2 -->
+        <section class="section-2">
+            <h2>Our Key Features</h2>
+            <div class="section-content">
+
+            <div class="feature">
+                <img src="2.jfif" alt="Feature 1">
+                <h3>Vast Selection</h3>
+                <p>Explore a diverse range of tech gadgets and accessories, ensuring you find the perfect tech solution for your needs</p>
+            </div>
+
+            <div class="feature">
+                <img src="4.jfif" alt="Feature 2">
+                <h3>Customer Support</h3>
+                <p>Our dedicated customer support team is here to assist you with any inquiries or concerns.</p>
+            </div>
+
+            <div class="feature">
+                <img src="8.png" alt="Feature 3">
+                <h3>Quality Assurance</h3>
+                <p>Shop with confidence, knowing our products are trusted and reliable, backed by our commitment to quality.</p>
+            </div>
+
+            <div class="feature">
+                <img src="22.jpg" alt="Feature 3">
+                <h3>Fast Shipping</h3>
+                <p>Enjoy swift and dependable shipping options, ensuring your tech products reach you promptly.</p>
+            </div>
+        </section>
+        
+      
+        <!-- Section 3 -->
+        <!-- Create a section to display featured products -->
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="15.jpg" alt="Product 1">
+                <h3>SQ11 MINI CAMERA 1080P 360 Revolution</h3>
+                <span class="regular-price">Rs 4000</span>
+                <span class="price">Rs 3200</span>
+                <br>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+
+            <div class="product">
+                <img src="13.jpg" alt="Product 2">
+                <h3>Bose Mini Boost Series 1 Bluetooth Speaker</h3>
+                <span class="regular-price">Rs. 1500</span>
+                <span class="price">Rs. 1100</span>
+                <br>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+
+            <div class="product">
+                <img src="12.jfif" alt="Product 3">
+                <h3>Redmi Buds 3 Lite Earphone TWS Bluetooth 5.2</h3>
+                <span class="regular-price">Rs. 3800</span>
+                <span class="price">Rs. 3000</span>
+                <br>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+
+            <div class="product">
+                <img src="14.png" alt="Product 4">
+                <h3>HK9 Pro Smart Watch Amoled WearFit Pro CHAT CPT Gen 2</h3>
+                <span class="regular-price">Rs. 2600</span>
+                <span class="price">Rs. 1900</span>
+                <br>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            
+            <div class="all">
+                <!-- Button to view all products -->
+                <a href="#" class="btn all-products-btn">View All Products</a>
+            </div>
+        </section>
+
+
+
+        <section class="connected">
+            <div class="contact-info">
+                <h2>Have questions or feedback? Contact our team.</h2>
+                <p>Our dedicated team is readily available to assist you with any questions or concerns you may have. Whether you're seeking product information, technical support, or simply want to get in touch, we encourage you to reach out to us. </p>
+            </div>
+        </section>
+        
+        <!-- Section 4 -->
+
+        <section class="contact-section">
+
+            <div class="contact-image">
+                <img src="17.jfif" alt="Contact Image">
+            </div>
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="submit_contact_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <label for="query">Your Query:</label>
+                    <textarea id="query" name="query" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        
+          
+    </main>
+
+    <footer class="site-footer">
+               
+        <div class="newsletter">
+            <h3>Join Our Newsletter</h3>
+            <p>Stay updated with the latest news and offers.Subscribe to our newsletter for the latest tech news, exclusive offers, and updates.</p>
+            <form action="subscribe.php" method="post">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>
+        </div>
+        
+        <div class="d1">
+            <h3>Contact Information</h3>
+            <p>L245 Musharaff Colony Hawks Bay Karachi</p>
+            <br>
+            <p>Phone: +92 (313) 5018538</p>
+            <div class="social-icons">
+                <a href="#"><img src="fb2.png" alt="Facebook"></a>
+                <a href="#"><img src="ig.png" alt="Instagram"></a>
+                <a href="#"><img src="whatsApp.png" alt="whatsApp"></a>
+                <a href="#"><img src="yt1.jpg" alt="whatsApp"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
