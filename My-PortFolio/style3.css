@@ -1,0 +1,410 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* About Section Styles */
+.about {
+    background-color: #ebe2f1;
+    background-image: linear-gradient(rgba(162, 0, 255, 0),rgba(0, 38, 255, 0.411));
+    padding: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: center;
+    text-align: justify;
+    font-size: 120%;
+    line-height: 150%;
+}
+
+.about h2{
+    text-align: center;
+    font-size: 150%;
+}
+
+/* Skills Section Styles */
+.skills {
+    padding: 20px;
+    padding-bottom: -50px;
+}
+
+.skills h2{
+    text-align: center;
+    font-size: 150%;
+}
+
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}  
+.skills-img img {
+    width: 60%;
+    padding-left: 4rem;
+    object-position: right;
+}
+
+.bars-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    width: 70%;
+    /* padding-left: 15%; */
+    margin-left: 15%;
+}
+  
+.bars-box h3,
+  span {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+  
+.light-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.2rem;
+    background: hsla(260, 100%, 44%, 0.4);
+    border-radius: 0.5rem;
+}
+  
+.percent-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1.2rem;
+    border-radius: 0.5rem;
+    background-color: #4c00ff;
+}
+.bars-box img{
+    width: 40px;
+    align-self: start;
+    justify-content: center;
+}
+
+.el-bar{
+    width: 95%;
+}
+
+.react-bar {
+    width: 90%;
+}
+
+.html-bar {
+    width: 85%;
+}
+  
+.css-bar {
+    width: 84%;
+}
+  
+.js-bar {
+    width: 75%;
+}
+  
+.phyton-bar {
+    width: 65%;
+}
+
+.expertise {
+    background-color: #e4dede;
+    background-image: linear-gradient(rgba(56, 80, 148, 0.329), white);
+
+}
+
+.skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.skill-item {
+    flex: 0 0 calc(20% - 20px); /* Adjust width and margin as needed for spacing */
+    margin: 10px;
+    padding: 15px;
+    border: 5px solid rgb(100, 123, 226);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+
+}
+
+.skill-item img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.skill-item h3 {
+    margin: 10px 0;
+}
+
+.skill-item p {
+    font-size: 15px;
+    line-height: 140%;
+}
+
+.skill-item:hover{
+    background-color: aquamarine;
+}
+
+@media screen and (max-width: 768px) {
+    .skill-item {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+.projects {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.project img {
+    max-width: 100%;
+    max-height: 400px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.project-item {
+    flex: 0 0 calc(30% - 20px); /* Adjust width and margin as needed for spacing */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-item:hover{
+    background: #ccc;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    width: 500px;
+}
+
+.project-item h3 {
+    margin: 10px 0;
+}
+
+.project-item p {
+    font-size: 14px;
+    margin-left: 70px;
+    margin-right: 70px;
+    line-height: 170%;
+}
+
+@media screen and (max-width: 768px) {
+    .project-item {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+
+.connected{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 230px; /* Center vertically in the viewport */
+    background-color: rgba(118, 85, 196, 0.322);
+    background-image: linear-gradient(rgba(162, 0, 255, 0.212),rgba(0, 38, 255, 0.411));
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-info p
+{
+    font-size: 16px;
+    /* margin-bottom: 50px; */
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+}
+.contact-info a{
+    color: #fff;
+    font-size: large;
+    font-weight: 400;
+}
+
+/* Section 4 */
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding-left: 20%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+
+}
+
+/* Style the contact image */
+.contact-image {
+    width: 40%; /* Adjust the width for the image container */
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
+}
+
+/* Style the contact form container */
+.contact-form {
+    width: 40%; /* Adjust the width for the form container */
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.185); /* Add a subtle shadow */
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+/* Style form labels and input fields */
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 120px; /* Increase the height for the query field */
+}
+
+/* Style the submit button */
+.contact-form button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    border-style: double;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+.contact-form button:hover {
+    background-color: #ff3300;
+}
+
+
+/* Styles for the site footer */
+.site-footer {
+    background-color: blueviolet;
+    color: #fff;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12.5%;
+    padding-right: 20%;
+    padding-bottom: 20px;
+}
+
+/* Styles for the newsletter section */
+.newsletter, .quick-links, .contact-info {
+    flex: 0 0 calc(25%);
+}
+
+.newsletter p 
+{
+line-height: 30px;
+
+}
+/* Styles for the quick links */
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links ul li {
+    margin-bottom: 10px;
+}
+
+.quick-links ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styles for the contact information */
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between icons as needed */
+    padding-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons a img {
+    width: 40px; /* Adjust the width of the icons as needed */
+    height: 40px; /* Adjust the height of the icons as needed */
+    border-radius: 50%; /* Make the icons circular */
+    transition: transform 0.2s; /* Add a smooth transition on hover */
+
+    /* Add more styling as needed, such as box-shadow, border, etc. */
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2); /* Scale the icon up on hover */
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: blueviolet;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
