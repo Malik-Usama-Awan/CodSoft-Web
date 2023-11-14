@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <body>
+        <div class="landing-page">
+            <!-- Menu -->
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <!-- Header Section with Background Image -->
+            <header class="header">
+                <!-- <img src="C:\Users\Hp\Desktop\Web Dev\12.jpg" alt="Background Image"> -->
+                <h1>Welcome to Calculator Pro</h1>
+                <p>The ultimate online calculator for all your mathematical needs.</p>
+                <h2>Developed By: Muhammad Usama</h2>
+            </header>
+        </div>
+
+        <div class="calculator">
+            <div class="display">
+                <input type="text" id="input-display" readonly>
+                <input type="text" id="output-display" readonly>
+            </div>
+
+            <div class="buttons">
+                <button onclick="calculateSquareRoot()">√</button>
+                <button onclick="calculateCubeRoot()">³√</button>
+                <button onclick="calculateSquare()">x²</button>
+                <button onclick="calculateCube()">x³</button>
+                <button onclick="appendToDisplay('7')">7</button>
+                <button onclick="appendToDisplay('8')">8</button>
+                <button onclick="appendToDisplay('9')">9</button>
+                <button class="operator" onclick="appendToDisplay('+')">+</button>
+                <button onclick="appendToDisplay('4')">4</button>
+                <button onclick="appendToDisplay('5')">5</button>
+                <button onclick="appendToDisplay('6')">6</button>
+                <button class="operator" onclick="appendToDisplay('-')">-</button>
+                <button onclick="appendToDisplay('1')">1</button>
+                <button onclick="appendToDisplay('2')">2</button>
+                <button onclick="appendToDisplay('3')">3</button>
+                <button class="operator" onclick="appendToDisplay('*')">*</button>
+                <button onclick="appendToDisplay('0')">0</button>
+                <button onclick="appendToDisplay('.')">.</button>
+                <button class="operator" onclick="calculateResult()">=</button>
+                <button class="operator" onclick="appendToDisplay('/')">/</button>
+                <button class="operator" onclick="calculatePercentage()">%</button>
+                <button onclick="clearDisplay()">C</button>
+                <input type="button" value="Delete" onclick="deleteLastValue()" />
+            </div>
+
+            <!-- history -->
+            <div class="history">
+                <h3>Calculation History</h3>
+                <ul id="history-list"></ul>
+            </div>
+        </div>
+
+    </body>
+    <script src="script.js"></script>
+
+    <footer class="site-footer">
+               
+        <div class="newsletter">
+            <h3>Join Our Newsletter</h3>
+            <p>Stay updated with the latest news and offers.Subscribe to our newsletter for the latest tech news, exclusive offers, and updates.</p>
+            <form action="subscribe.php" method="post">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>
+        </div>
+        
+        <div class="d1">
+            <h3>Contact Information</h3>
+            <p>L245 Musharaff Colony Hawks Bay Karachi</p>
+            <p>m.usama9786@gmail.com</p>
+            <p>Phone: +92 (313) 5018538</p>
+            <div class="social-icons">
+                <a href="#"><img src="fb2.png" alt="Facebook"></a>
+                <a href="#"><img src="ig.png" alt="Instagram"></a>
+                <a href="#"><img src="whatsApp.png" alt="whatsApp"></a>
+                <a href="#"><img src="yt1.jpg" alt="whatsApp"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+
+
+</html>

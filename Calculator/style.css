@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('111.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.calculator {
+    width: 350px;
+    margin: 0 auto;
+    border: 5px solid #cf23b2;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(89, 201, 195);
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(255, 217, 0)2, 202, 83);
+
+}
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.display {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #daa9a970;
+    border: 1px solid #e92727;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #ff6666;
+    color: #fff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/* ... (existing CSS code) ... */
+
+.history {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+
+    .calculator-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .calculator {
+        flex: 1;
+        margin-right: 10px; 
+    }
+    
+}
+
+/* Styles for the site footer */
+.site-footer {
+    background-color: #050505;
+    color: #fff;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12.5%;
+    padding-right: 20%;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+/* Styles for the newsletter section */
+.newsletter, .quick-links, .contact-info {
+    flex: 0 0 calc(25%);
+}
+
+.newsletter p 
+{
+line-height: 30px;
+
+}
+/* Styles for the quick links */
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links ul li {
+    margin-bottom: 10px;
+}
+
+.quick-links ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styles for the contact information */
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between icons as needed */
+    padding-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons a img {
+    width: 40px; /* Adjust the width of the icons as needed */
+    height: 40px; /* Adjust the height of the icons as needed */
+    border-radius: 50%; /* Make the icons circular */
+    transition: transform 0.2s; /* Add a smooth transition on hover */
+
+    /* Add more styling as needed, such as box-shadow, border, etc. */
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2); /* Scale the icon up on hover */
+}
+
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 480px) {
+
+    .landing-page header h2 {
+
+        color: red;
+    }
+
+
+    .site-footer {
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .newsletter,
+    .quick-links,
+    .contact-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+}
