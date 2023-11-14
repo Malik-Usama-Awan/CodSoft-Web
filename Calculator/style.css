@@ -34,6 +34,10 @@ body {
     font-weight: bold;
     font-size: 16px;
 }
+.landing-page h2{
+    color: red;
+    font-size: 30px;
+}
 
 .display {
     padding: 15px;
@@ -111,6 +115,10 @@ button {
     margin-top: 100px;
 }
 
+.site-footer a{
+    color: #fff;
+}
+
 /* Styles for the newsletter section */
 .newsletter, .quick-links, .contact-info {
     flex: 0 0 calc(25%);
@@ -124,11 +132,12 @@ line-height: 30px;
 /* Styles for the quick links */
 .quick-links ul {
     list-style: none;
-    padding: 0;
+    padding: 0px;
 }
 
 .quick-links ul li {
     margin-bottom: 10px;
+    padding: 5px;
 }
 
 .quick-links ul li a {
